@@ -453,6 +453,9 @@ ASIDE
 aside {
   width: 60%;
   padding-block-start: 2rem;
+  position: sticky;
+  align-self: flex-start;
+  top: 70px;
 }
 
 .arguments h2 {
@@ -505,6 +508,7 @@ aside a {
   aside {
     order: -1;
     width: 100%;
+    position: initial;
   }
 }
 
